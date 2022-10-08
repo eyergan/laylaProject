@@ -1,5 +1,32 @@
-.hero {
-  background-color: #ecfeff;
-  text-align: center;
-  padding: 135px 20px 125px 20px;
+:root {
+  --branding-color: #b9fff8;
+  --background-color-two: #6fedd6;
+  --alternate-color: #ff9551;
+  --alternate-color-two: #ff4a4a;
+}
+
+.primaryFont {
+  font-family: "Abril Fatface", cursive;
+}
+
+.secondaryFont {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: var(--branding-color);
+}
+
+h1 {
+  color: var(--alternate-color-two);
+  font-family: "Abril Fatface", cursive;
+}
+
+h2 {
+  color: var(--alternate-color);
+}
+
+p {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
 }
