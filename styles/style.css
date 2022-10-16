@@ -23,6 +23,7 @@
 
 .navbar {
   font: var(--default-font-family);
+  opacity: 0.9;
 }
 
 .nav-link {
@@ -52,6 +53,7 @@ h1 {
   font-family: "Abril Fatface", cursive;
   text-align: center;
   size: 70px;
+  margin-top: 130px;
 }
 
 h2 {
