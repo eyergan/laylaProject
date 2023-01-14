@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #b9fff8;
+  --background-color: #b9fff8;
   --background-color-two: #6fedd6;
   --alternate-color: #ff9551;
   --alternate-color-two: #ff4a4a;
@@ -44,16 +44,42 @@
   text-align: center;
 }
 
+.social-links {
+  margin: 0 20px;
+  color: var(--background-color);
+  background: var(--background-color-two);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+.social-links a:hover {
+  color: white;
+  background: var(--background-color-two);
+  transition: all 100ms ease-in-out;
+}
+
+.email-info {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Lato", sans-serif;
+  margin-top: 20px;
+}
+
 body {
-  background-color: var(--branding-color);
+  background-color: var(--background-color);
 }
 
 h1 {
-  color: var(--alternate-color-two);
-  font-family: "Abril Fatface", cursive;
   text-align: center;
   size: 70px;
   margin-top: 130px;
+}
+
+h1,
+h3 {
+  color: var(--alternate-color-two);
+  font-family: "Abril Fatface", cursive;
 }
 
 h2 {
@@ -70,4 +96,14 @@ p {
   font-size: 18px;
   font-family: "Lato", sans-serif;
   opacity: 0.5;
+}
+
+footer {
+  margin: 60px 80px;
+}
+
+footer .contact-box {
+  background: var(--background-color-two);
+  padding: 30px 120px;
+  border-radius: 10px;
 }
