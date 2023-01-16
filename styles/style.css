@@ -36,8 +36,7 @@
 }
 
 .aboutImage {
-  border-radius: 20px;
-  margin: 50px 50px;
+  margin: 50px 50px 50px 25px;
 }
 
 .break {
@@ -46,16 +45,16 @@
 
 .social-links {
   margin: 0 20px;
-  color: var(--background-color);
+  color: var(--alternate-color);
   background: var(--background-color-two);
   padding: 10px 14px;
   font-size: 18px;
   border-radius: 50%;
 }
 
-.social-links a:hover {
-  color: white;
-  background: var(--background-color-two);
+.social-links:hover {
+  color: var(--background-color-two);
+  background: white;
   transition: all 100ms ease-in-out;
 }
 
@@ -64,6 +63,15 @@
   font-size: 30px;
   font-family: "Lato", sans-serif;
   margin: 20px 20px;
+}
+
+.contact-content {
+  text-align: center;
+}
+
+.aboutInfo {
+  text-align: center;
+  padding: 25px;
 }
 
 body {
@@ -107,4 +115,24 @@ footer .contact-box {
   background: var(--background-color-two);
   padding: 30px 120px;
   border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+  h3 {
+    font-size: 30px;
+  }
+
+  .email-info {
+    font-size: 20px;
+  }
+
+  .aboutImage {
+    display: block;
+    margin: 0 auto;
+    max-width: 350px;
+  }
+
+  .evy {
+    font-size: 12px;
+  }
 }
