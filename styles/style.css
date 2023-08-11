@@ -1,8 +1,11 @@
 :root {
-  --background-color: #b9fff8;
-  --background-color-two: #6fedd6;
+  --background-color: #dbd8e3;
+  --background-color-two: #5c5470;
   --alternate-color: #ff9551;
   --alternate-color-two: #ff4a4a;
+  --third-color: #352f44;
+  --fourth-color: #2a2438;
+
   --default-font-family: "Lato", sans-serif;
 }
 
@@ -27,12 +30,12 @@
 }
 
 .nav-link {
-  color: var(--alternate-color) !important;
+  color: var(--third-color) !important;
 }
 
 .nav-link:hover,
 .nav-link.active {
-  color: var(--alternate-color-two) !important;
+  color: var(--fourth-color) !important;
 }
 
 .aboutImage {
@@ -62,7 +65,12 @@
   text-align: center;
   font-size: 30px;
   font-family: "Lato", sans-serif;
+  color: var(--background-color);
   margin: 20px 20px;
+}
+
+.email-text {
+  color: var(--background-color);
 }
 
 .contact-content {
