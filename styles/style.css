@@ -100,8 +100,7 @@ h3 {
 }
 
 h2 {
-  color: var(--alternate-color);
-  text-align: center;
+  color: var(--background-color-two);
 }
 
 h4 {
