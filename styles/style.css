@@ -82,6 +82,10 @@
   padding: 25px;
 }
 
+.aboutContainer {
+  background-image: url(../images/chairL.png);
+}
+
 body {
   background-color: var(--background-color);
 }
