@@ -84,12 +84,24 @@
 
 .aboutContainer {
   background-image: url(../images/chairL.png);
-  background-position: center;
-  background-size: 400px 800px;
-  background-repeat: no-repeat;
+  min-height: 500px;
 
-  padding: 100px 100px;
-  margin: 0 100px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.workContainer {
+  background-image: url(../images/orcaMobile.png);
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {
@@ -110,7 +122,7 @@ h3 {
 }
 
 h2 {
-  color: var(--background-color-two);
+  color: var(--background-color);
 }
 
 h4 {
