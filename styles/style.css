@@ -84,6 +84,12 @@
 
 .aboutContainer {
   background-image: url(../images/chairL.png);
+  background-position: center;
+  background-size: 400px 800px;
+  background-repeat: no-repeat;
+
+  padding: 100px 100px;
+  margin: 0 100px;
 }
 
 body {
