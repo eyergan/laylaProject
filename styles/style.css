@@ -114,6 +114,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.heroLinks {
+  color: var(--background-color);
+  text-decoration: none;
+}
+
+.heroLinks:hover {
+  color: var(--background-color-two);
+  text-decoration: none;
+}
+
 body {
   background-color: var(--background-color);
 }
