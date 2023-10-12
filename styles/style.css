@@ -125,6 +125,14 @@
   text-decoration: none;
 }
 
+.workImages {
+  max-width: 300px;
+}
+
+.portfolioContainer {
+  margin-left: 100px;
+}
+
 body {
   background-color: var(--background-color);
 }
